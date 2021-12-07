@@ -1,0 +1,237 @@
+baseURL = "https://demo.gethugothemes.com/navigator/"
+languageCode = "en-us"
+title = "NTDEP | Neglected Tropical Diseases Elimination Program"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = "" # your analitics ID
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
+
+# Site Params
+[params]
+logo = "images/logo.png"
+
+# Gestion des langues : FR / EN / NL / DE
+[[Params.listeLangues]]
+code = "fr"
+[[Params.listeLangues]]
+code = "en"
+
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+############ 1 - Site en FRANCAIS
+[Languages.fr]
+weight = 1
+languageCode = "fr-fr"
+title = "FRANCAIS Example site multi-language"
+dateFormat = "2 January 2006"
+
+home = "Home"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "FRANCAIS Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
+footerServiceTitle = "FRANCAIS Services"
+footerQuicklinkTitle = "FRANCAIS Quick links"
+footerAboutTitle = "FRANCAIS About"
+footerSubscribeTitle = "FRANCAIS Subscribe"
+
+# Hero Area Section
+[Languages.fr.params.hero]
+enable  = true
+heading = "FRANCAIS We love to make brands grow"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+button  = true
+btnText = "Know More"
+btnURL  = "https://themefisher.com/"
+videoThumb = "images/slider/video-player-thumb.jpg"
+videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+# About 2 Section
+[Languages.fr.params.aboutSm]
+enable  = true
+title   = "FRANCAIS We have explored the digital landscape with passion for a long time"
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+
+# Blog Section On Homepage
+[Languages.fr.params.blog]
+enable  = true
+topTitle= "OUR UNTOLD STORY"
+title   = "FRANCAIS Blog."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+# Contact Section
+[Languages.fr.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "FRANCAIS Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.fr.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "FRANCAIS Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Nous contacter"
+
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "NTDEP: ...eliminating NTDs for all."
+dateFormat = "January 2, 2006"
+home = "Home"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "The Official Home Page of Neglected Tropical Diseases Elimination Program. \n ...eliminating NTDs for all."
+footerServiceTitle = "NTDs"
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe to our Newsletter"
+
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "COVID-19 & NTDs"
+description = "Read our Latest NTDs/COVID-19 co-morbidity report."
+button  = true
+btnText = "Read"
+btnURL  = "#"
+videoThumb = "images/slider/figureOne.png"
+videoURL   = "https://www.youtube.com/embed/watch?v=fhXRTmi9NKs"
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "NTD Summary in Nigeria"
+description = "NTDEP is actively managing 9 priority diseases in 11 priority states. We also control the distribution of 15 drug options nationwide!"
+
+# About 2 Section
+[Languages.en.params.aboutSm-1]
+enable  = true
+title   = "NTD Summary in Nigeria"
+description = "NTDEP is actively managing 9 priority diseases in 11 priority states. We also control the distribution of 15 drug options nationwide!"
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable  = true
+topTitle= "Our activities around Nigeria"
+title   = "News & Media"
+#subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+# Contact Section
+[Languages.en.params.contact]
+enable  = true
+#topTitle= "DROP US A NOTE"
+title   = "Contact Us."
+subtitle= "Address: Federal Secretariat Complex, Phase III, Shehu Shagari Way, Central Business District, Abuja-FCT, Nigeria."
+address = "Address: Federal Secretariat Complex, Phase III, Shehu Shagari Way, Central Business District, Abuja-FCT, Nigeria."
+phone   = "+234812345678"
+#fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+#dribbble= "https://dribbble.com/"
+#instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.en.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Partner with Us"
+subtitle= "Join us to create a new world, free of NTDs"
+btnText = "Contact Us"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+# Navbar Menus
+[[menu.nav]]
+name    = "about"
+url     = "about"
+weight  = 2
+[[menu.nav]]
+name    = "ntds"
+url     = "ntds"
+weight  = 3
+[[menu.nav]]
+name    = "library"
+url     = "library"
+weight  = 4
+[[menu.nav]]
+name    = "media"
+url     = "media"
+weight  = 5
+[[menu.nav]]
+name    = "contact"
+url     = "contact"
+weight  = 6
+
+# Footer Service Menu
+[[menu.ntds]]
+name    = "about"
+url     = "about"
+weight  = 1
+[[menu.service]]
+name    = "library"
+url     = "library"
+weight  = 2
+#[[menu.service]]
+#name    = "webdevelopment"
+#url     = "service"
+#weight  = 3
+
+# Footer Quick links Menu
+[[menu.quicklink]]
+name    = "partners"
+url     = "about"
+weight  = 1
+[[menu.quicklink]]
+name    = "about"
+url     = "about"
+weight  = 2
+#[[menu.quicklink]]
+#name    = "faqs"
+#url     = "about"
+#weight  = 3
+#[[menu.quicklink]]
+#name    = "badges"
+#url     = "about"
+#weight  = 4

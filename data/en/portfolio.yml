@@ -1,0 +1,42 @@
+enable  : true
+#topTitle: RECENT WORK
+title   : WORK SHOWCASE.
+subtitle: Our activities all over Nigeria
+
+filtermenu :
+  - name      : Monitoring and Evaluation
+    category  : mande
+
+  - name      : Drug Distribution
+    category  : dd
+
+  - name      : WASH
+    category  : wash
+
+  - name      : Public Health
+    category  : ph
+
+item   :
+  - title : Oyo M&E
+    image : images/portfolio/portfolio-1.jpg
+    category  : mande
+
+  - title : Kwara Drug Distribution
+    image : images/portfolio/portfolio-2.jpg
+    category  : dd, wash
+
+  - title : Gombe WASH 
+    image : images/portfolio/portfolio-3.jpg
+    category  : wash
+
+  - title : Katsina Public  Health
+    image : images/portfolio/portfolio-4.jpg
+    category  : ph
+
+  - title : Taraba WASH
+    image : images/portfolio/portfolio-5.jpg
+    category  : ph, wash, made
+
+  - title : Abuja M&E
+    image : images/portfolio/portfolio-6.jpg
+    category  : mande, dd

@@ -1,0 +1,17 @@
+enable : true
+item    :
+  - clientThumb : images/client-logo/clients-1.jpg
+    clientName  : Sponsor1
+    clientDesignation: Sponsor Name
+
+  - clientThumb : images/client-logo/clients-2.jpg
+    clientName  : Sponsor2
+    clientDesignation: Sponsor Name
+
+  - clientThumb : images/client-logo/clients-1.jpg
+    clientName  : Sponsor3
+    clientDesignation: Sponsor Name
+
+  - clientThumb : images/client-logo/clients-2.jpg
+    clientName  : Sponsor4
+    clientDesignation: Sponsor Name

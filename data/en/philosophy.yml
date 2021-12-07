@@ -1,0 +1,27 @@
+enable    : true
+#topTitle   : LITTLE MORE BRIEF
+title     : Neglected Tropical Disease Elimination Program
+#subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+tabItem   :
+  - id        : philosophy
+    title     : NTDs
+    heading   : From the Director.
+    content   : >
+      Neglected Tropical Diseases (NTDs) are a diverse group of parasitic, bacterial, fungal, viral and non communicable diseases that affect over 1 billion persons across Africa. <br> <br> In Nigeria, over 1 million cases are being managed by the NTDEP. <br> <br> On the basis of treatment options, NTDs are classified broadly into two groups. 
+      <br> - Preventive Chemotherapy NTDs
+      <br> - Innovative Intensified Disease Management NTDs
+    image     : images/company/company-image.jpg
+
+  - id        : mission
+    title     : Mission
+    heading   : Our Mission
+    content   : >
+      Mission Statement!
+    image     : images/company/company-image-2.jpg
+
+  - id        : vision
+    title     : Vision
+    heading   : Our Vision
+    content   : >
+      Mission Statement!
+    image     : images/company/company-image-3.jpg

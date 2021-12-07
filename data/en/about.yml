@@ -1,0 +1,13 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : images/about/about-1.jpg
+    title : What are NTDs?
+    description : >
+      With Director's picture on the right!.
+
+  - positionRight : true
+    image : images/about/about-2.jpg
+    title : News and Media
+    description : >
+      With Nigerian Map.
