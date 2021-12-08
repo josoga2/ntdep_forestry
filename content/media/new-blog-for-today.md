@@ -1,7 +1,7 @@
 +++
-author = "Arya Stark"
-date = 2018-07-08T06:11:29Z
-description = "This is meta description"
+author = "Wale"
+date = 2021-12-08T07:11:29Z
+description = "buruli ulcer"
 draft = true
 image = "images/blog/post-2.jpg"
 title = "NEW BLOG FOR TODAY"
