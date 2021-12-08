@@ -1,5 +1,5 @@
 ---
-title: Blog Photos on Phone
+title: ANATOMY OF FISH
 date: 2018-07-08T12:22:40.000+06:00
 image: images/blog/post-2.jpg
 author: Cersei Lannister
